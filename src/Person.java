@@ -1,16 +1,16 @@
+/*
+@Author : Rakesh Yadav
+ */
 class Person {
-    String sName;
-    int sAge;
-    int sWeight;
+    private String sName;
+    private int sAge;
+    private int sWeight;
 
+    // Constructor ....
     Person(String sName, int sAge, int sWeight) {
         this.sName = sName;
         this.sAge = sAge;
         this.sWeight = sWeight;
-    }
-
-    public String getsName() {
-        return sName;
     }
 
     public void setsName(String sName) {
@@ -33,9 +33,13 @@ class Person {
         this.sWeight = sWeight;
     }
 
-    public void myintro() {
-        System.out.println("Name :" + sName + "\nAge : " + sAge + "\nWeight : " + sWeight);
+    // Getter & Setter ...
+    public String getsName() {
+        return sName;
     }
 
 
+    public void myintro() {
+        System.out.println("Name :" + sName + "\nAge : " + sAge + "\nWeight : " + sWeight);
+    }
 }
