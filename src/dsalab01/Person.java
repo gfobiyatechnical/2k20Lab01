@@ -1,6 +1,7 @@
 /*
 @Author : Rakesh Yadav
  */
+package dsalab01;
 class Person {
     private String sName;
     private int sAge;
